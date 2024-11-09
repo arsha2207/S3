@@ -64,7 +64,6 @@ struct Node * Product(struct Node *op1,struct Node *op2)
 {
     struct Node *res,*p1,*p2,*ptr,*head=NULL,*temp;
     p1=op1;
-    p2=op2;
     int k=0;
     while(p1!=NULL)
     {   p2=op2;
