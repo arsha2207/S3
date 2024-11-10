@@ -34,3 +34,18 @@ DS LAB
 	5. Delete a node	
 
 	file name: bt.c
+
+5)Write a program to create a binary search tree (data items are integers) with the following operations
+	1. Insert a new node
+	2. Inorder traversal
+	3. Preorder traversal
+	4. Postorder traversal
+	5. Delete a node
+	6. Find the number of leaf nodes
+	7. Sort the input numbers
+
+	file name: bst.c
+
+6)Represent any given graph and perform depth first search and breadth first search.
+
+	file name: graph.c
