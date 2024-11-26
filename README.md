@@ -1,8 +1,8 @@
-##S3 Lab
+## S3 Lab
 
 This repositary contains the programs I have done in java and data structure lab in Btech s3.
 
-#DS LAB
+# DS LAB
 
 
 1.Write a menu driven program for performing the following operations on a linked list
@@ -14,7 +14,7 @@ This repositary contains the programs I have done in java and data structure lab
 	6. Delete from end
 	7. Delete from a specified position
 
-	file name:[linked list.c](linked list.c)
+	file name:[linked list.c](ds\ lab/linked\ list.c)
 
 
 2.Implement a queue using linked list with the following operations: 1.enqueue 2.dequeue 3.display
