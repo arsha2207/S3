@@ -14,7 +14,7 @@ This repositary contains the programs I have done in java and data structure lab
 	6. Delete from end
 	7. Delete from a specified position
 
-	file name:[linked list.c](ds lab/linked list.c)
+	file name:[linked list.c](ds%20lab/linked%20list.c)
 
 
 2.Implement a queue using linked list with the following operations: 1.enqueue 2.dequeue 3.display
