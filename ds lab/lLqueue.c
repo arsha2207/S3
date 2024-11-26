@@ -1,3 +1,4 @@
+/*this code implements queue using linked list*/
 #include <stdio.h>
 #include<stdlib.h>
 struct Node
@@ -18,9 +19,11 @@ void enqueue()
     printf("enter data:");
     scanf("%d",&data);
     temp->data=data;
+    temp->link=NULL;
     if(front==NULL)
     {
-        rear=front=temp;
+        rear=temp;
+        front=temp;
     }
     else
     {
@@ -40,6 +43,10 @@ void dequeue()
     struct Node *ptr=front; 
     front=front->link;
     free(ptr);
+    if(front==NULL)
+    {
+        rear=NULL;
+    }
 }
 
 void display()
@@ -73,6 +80,7 @@ int main()
             case 3:display();
                 break;
             case 4:exit(0);
+            default:printf("invalid choice\n");
         }
     }
     return 0;
