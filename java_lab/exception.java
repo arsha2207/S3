@@ -16,7 +16,7 @@ class Student
    {
       if(grade<0||grade>100)
       {
-          throw new GradeException("Grade must be between o and 100 ");
+          throw new GradeException("Grade must be between 0 and 100 ");
       }
       this.name=name;
       this.grade=grade;
